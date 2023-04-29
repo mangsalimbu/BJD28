@@ -19,16 +19,19 @@ public class RestaurantClient {
                     case 1:
                         BiryaniDetails b = new BiryaniDetails();
                         b.biryaniMenuDetails();
+                        b.closeScanner();
                         break;
 
                     case 2:
                         DrinksDetails d = new DrinksDetails();
                         d.DrinksMenuDetails();
+                        d.closeScanner();
                         break;
 
                     case 3:
                         IceDetails i = new IceDetails();
                         i.IceMenuDetails();
+                        i.closeScanner();
                         break;
 
                     case 4:

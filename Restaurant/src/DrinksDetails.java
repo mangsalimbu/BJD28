@@ -80,4 +80,8 @@ public class DrinksDetails {
         System.out.println();
         System.out.println("Anything else you'd like?: ");
     }
+
+    public void closeScanner() {
+        scanner.close();
+    }
 }
